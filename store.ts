@@ -63,28 +63,9 @@ type AppState = {
 
 // Reducers
 const initialState: AppState = {
-  posts: [{
-    id:"1111",
-    title:"title",
-    desc:"body",
-    likes:[],
-    comments:[],
-    user:{
-      id:"1234",
-      name:"awnish",
-      password:"awnish",
-    },
-  }],
-  users:[{
-    id:"1234",
-    name:"awnish",
-    password:"awnish",
-  }],
-  currentUser:{
-    id:"1234",
-    name:"awnish",
-    password:"awnish",
-  }
+  posts: [],
+  users:[],
+  currentUser:null
 };
 
 const rootReducer = (state: AppState = initialState, action: any) => {
