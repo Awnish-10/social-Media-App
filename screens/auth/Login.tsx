@@ -38,7 +38,7 @@ const Login: React.FC = () => {
       <View>
       {/* <Text>Login</Text> */}
       <View style={{width:'100%', justifyContent:'center', alignItems:'center', marginTop:200, marginBottom:50}}>
-      <Icon name="facebook" size={70} color="#000" />
+      <Icon name="instagram" size={70} color="#000" />
       </View>
       {error && <ErrorPopup errorMessage={'Username or password incorrect'} onHide={()=>{seterror(false)}}/>
           }
